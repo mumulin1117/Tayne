@@ -18,7 +18,7 @@ target 'Tayne' do
   pod 'SwifterSwift'
   pod 'SnapKit'
   pod 'IQKeyboardManagerSwift'
-  pod 'MBProgressHUD'
+  #pod 'MBProgressHUD'
   pod 'Alamofire'
   pod 'KakaJSON'
   pod 'RTRootNavigationController'

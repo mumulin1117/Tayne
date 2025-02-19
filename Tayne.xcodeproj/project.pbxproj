@@ -60,6 +60,7 @@
 		048E7C4D2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E7C4A2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.swift */; };
 		048E7C502D5AFEA3007294A4 /* HairstyleGenerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E7C4E2D5AFEA3007294A4 /* HairstyleGenerationViewController.swift */; };
 		048E7C512D5AFEA3007294A4 /* HairstyleGenerationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E7C4F2D5AFEA3007294A4 /* HairstyleGenerationViewController.xib */; };
+		04A7E2062D65EDE3004D5FB1 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 04A7E2052D65EDE3004D5FB1 /* MBProgressHUD */; };
 		04AE7D592D5CA57C000E6ED5 /* TyeTrendTalkRemoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE7D582D5CA57B000E6ED5 /* TyeTrendTalkRemoteCell.xib */; };
 		04AE7D5A2D5CA57C000E6ED5 /* TyeTrendTalkRemoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE7D572D5CA57B000E6ED5 /* TyeTrendTalkRemoteCell.swift */; };
 		04AE7D5D2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE7D5C2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.xib */; };
@@ -181,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A7E2062D65EDE3004D5FB1 /* MBProgressHUD in Frameworks */,
 				1179B8EBE19AE2C91F744A18 /* Pods_Tayne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +422,9 @@
 				Base,
 			);
 			mainGroup = 0424CAD42D59934C00D44607;
+			packageReferences = (
+				04A7E2042D65EDE3004D5FB1 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+			);
 			productRefGroup = 0424CADE2D59934C00D44607 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -598,7 +603,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tayne/Info.plist;
@@ -638,7 +643,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tayne/Info.plist;
@@ -811,6 +816,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04A7E2042D65EDE3004D5FB1 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04A7E2052D65EDE3004D5FB1 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04A7E2042D65EDE3004D5FB1 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0424CAD52D59934C00D44607 /* Project object */;
 }
