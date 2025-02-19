@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HairstyleResultViewController" customModule="Tayne" customModuleProvider="target">
+            <connections>
+                <outlet property="resultTyeImageView" destination="wbU-BV-myQ" id="8QQ-1O-8Me"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wbU-BV-myQ">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resultImageLayer" translatesAutoresizingMaskIntoConstraints="NO" id="vGr-mK-kUz">
+                    <rect key="frame" x="0.0" y="308" width="393" height="544"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="758" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l20-gV-xoc">
+                    <rect key="frame" x="30" y="770" width="93" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="VF5-NK-6g2"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="tyeShare" backgroundImage="ChallengerLikeButtonBackImage"/>
+                    <state key="selected" image="ChallengerLikeButtonImage_s" backgroundImage="ChallengerLikeButtonBackImage"/>
+                    <connections>
+                        <action selector="tyeShareResultImage:" destination="-1" eventType="touchUpInside" id="oUw-ol-wlh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCd-Td-6n5">
+                    <rect key="frame" x="131" y="770" width="234" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6UM-Y8-J9t"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Save" backgroundImage="ChallengerButtonImage">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="tyeSaveResultImage:" destination="-1" eventType="touchUpInside" id="kCY-nB-baA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="l20-gV-xoc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="2xe-J2-n6H"/>
+                <constraint firstItem="wbU-BV-myQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="A4K-GW-Hp5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XCd-Td-6n5" secondAttribute="trailing" constant="28" id="GV0-Db-vhy"/>
+                <constraint firstItem="wbU-BV-myQ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="J5d-P3-fkf"/>
+                <constraint firstAttribute="bottom" secondItem="wbU-BV-myQ" secondAttribute="bottom" id="Suo-kw-0hH"/>
+                <constraint firstItem="vGr-mK-kUz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fX1-DV-Nkb"/>
+                <constraint firstItem="XCd-Td-6n5" firstAttribute="centerY" secondItem="l20-gV-xoc" secondAttribute="centerY" id="j5v-HT-Jg9"/>
+                <constraint firstAttribute="trailing" secondItem="vGr-mK-kUz" secondAttribute="trailing" id="nio-7H-wcW"/>
+                <constraint firstItem="XCd-Td-6n5" firstAttribute="leading" secondItem="l20-gV-xoc" secondAttribute="trailing" constant="8" id="sb2-ro-cDo"/>
+                <constraint firstAttribute="bottom" secondItem="vGr-mK-kUz" secondAttribute="bottom" id="tne-tA-3uy"/>
+                <constraint firstItem="l20-gV-xoc" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" constant="-32" id="y16-x7-PJY"/>
+                <constraint firstItem="wbU-BV-myQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yaq-kH-IZF"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ChallengerButtonImage" width="216" height="54"/>
+        <image name="ChallengerLikeButtonBackImage" width="93" height="50"/>
+        <image name="ChallengerLikeButtonImage_s" width="22.333333969116211" height="20"/>
+        <image name="resultImageLayer" width="375" height="543.66668701171875"/>
+        <image name="tyeShare" width="23" height="20"/>
+    </resources>
+</document>

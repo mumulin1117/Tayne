@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="ChallengerDetailCollectionViewCell" customModule="Tayne" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="668"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="668"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iGR-ch-HaQ">
+                        <rect key="frame" x="0.0" y="0.0" width="334" height="476"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="476" id="0mh-XA-lXB"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChallengerDetailBackImage" translatesAutoresizingMaskIntoConstraints="NO" id="kpD-Q4-sX0">
+                        <rect key="frame" x="0.0" y="159" width="334" height="509"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="iGR-ch-HaQ" secondAttribute="trailing" id="7k5-cw-8Md"/>
+                <constraint firstAttribute="trailing" secondItem="kpD-Q4-sX0" secondAttribute="trailing" id="ATn-Dv-qbu"/>
+                <constraint firstAttribute="bottom" secondItem="kpD-Q4-sX0" secondAttribute="bottom" id="CFz-u7-HLk"/>
+                <constraint firstItem="iGR-ch-HaQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="av3-KT-WqF"/>
+                <constraint firstItem="kpD-Q4-sX0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dwH-rB-AOG"/>
+                <constraint firstItem="iGR-ch-HaQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wAG-J7-Lgu"/>
+            </constraints>
+            <size key="customSize" width="334" height="668"/>
+            <connections>
+                <outlet property="challengeJoinImage" destination="iGR-ch-HaQ" id="mPe-Ha-4QZ"/>
+            </connections>
+            <point key="canvasLocation" x="-312.97709923664121" y="26.760563380281692"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ChallengerDetailBackImage" width="375" height="508.66665649414062"/>
+    </resources>
+</document>

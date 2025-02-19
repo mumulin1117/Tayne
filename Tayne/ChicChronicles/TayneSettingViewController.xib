@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TayneSettingViewController" customModule="Tayne" customModuleProvider="target">
+            <connections>
+                <outlet property="tayneSettingTable" destination="fIX-Hp-P1w" id="yNu-bT-O6b"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tayneLoginBackImage" translatesAutoresizingMaskIntoConstraints="NO" id="CbD-4N-R6C">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkE-S4-wy8">
+                    <rect key="frame" x="0.0" y="784" width="393" height="68"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Log out" backgroundImage="detailTyButonImge">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="loginTyeOutEvent:" destination="-1" eventType="touchUpInside" id="YMh-qe-0FX"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="never" style="insetGrouped" separatorStyle="none" rowHeight="62" sectionHeaderHeight="11" estimatedSectionHeaderHeight="1" sectionFooterHeight="1" estimatedSectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="fIX-Hp-P1w">
+                    <rect key="frame" x="0.0" y="59" width="393" height="725"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ehR-Of-pSD"/>
+                        <outlet property="delegate" destination="-1" id="sH9-7E-A3Q"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="WkE-S4-wy8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2S2-S5-ZQY"/>
+                <constraint firstItem="CbD-4N-R6C" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2x5-sH-8cK"/>
+                <constraint firstItem="fIX-Hp-P1w" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3fA-aY-sFs"/>
+                <constraint firstAttribute="bottom" secondItem="WkE-S4-wy8" secondAttribute="bottom" id="KU3-Vm-K12"/>
+                <constraint firstItem="CbD-4N-R6C" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Rrb-1W-DbU"/>
+                <constraint firstItem="WkE-S4-wy8" firstAttribute="top" secondItem="fIX-Hp-P1w" secondAttribute="bottom" id="TkF-nr-wen"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="fIX-Hp-P1w" secondAttribute="trailing" id="Ysj-bB-rQc"/>
+                <constraint firstItem="WkE-S4-wy8" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="m5v-sz-fWd"/>
+                <constraint firstAttribute="bottom" secondItem="CbD-4N-R6C" secondAttribute="bottom" id="thL-2r-hPB"/>
+                <constraint firstItem="fIX-Hp-P1w" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="uWt-OO-pia"/>
+                <constraint firstItem="CbD-4N-R6C" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="zUw-RV-ihf"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="detailTyButonImge" width="375" height="68"/>
+        <image name="tayneLoginBackImage" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

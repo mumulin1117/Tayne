@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tyeLaunchBackImage" translatesAutoresizingMaskIntoConstraints="NO" id="8KK-xn-2hl">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tyeLaunchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="SCD-pM-J41">
+                                <rect key="frame" x="143.66666666666666" y="321" width="106" height="105"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tyeLaunchName" translatesAutoresizingMaskIntoConstraints="NO" id="de0-R7-PC7">
+                                <rect key="frame" x="140.66666666666666" y="436" width="112" height="30"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SCD-pM-J41" firstAttribute="bottom" secondItem="8KK-xn-2hl" secondAttribute="centerY" id="8oq-LU-9IT"/>
+                            <constraint firstItem="de0-R7-PC7" firstAttribute="centerX" secondItem="8KK-xn-2hl" secondAttribute="centerX" id="ABI-cJ-rma"/>
+                            <constraint firstItem="de0-R7-PC7" firstAttribute="top" secondItem="SCD-pM-J41" secondAttribute="bottom" constant="10" id="BZ3-kl-Qpp"/>
+                            <constraint firstItem="SCD-pM-J41" firstAttribute="centerX" secondItem="8KK-xn-2hl" secondAttribute="centerX" id="Q8C-cl-vEB"/>
+                            <constraint firstItem="8KK-xn-2hl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="W2T-8L-hAr"/>
+                            <constraint firstItem="8KK-xn-2hl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZFi-lg-v0v"/>
+                            <constraint firstItem="8KK-xn-2hl" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="hCv-QV-W7k"/>
+                            <constraint firstAttribute="bottom" secondItem="8KK-xn-2hl" secondAttribute="bottom" id="tuZ-is-dXh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tyeLaunchBackImage" width="375" height="812"/>
+        <image name="tyeLaunchLogo" width="106" height="105"/>
+        <image name="tyeLaunchName" width="112" height="30"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

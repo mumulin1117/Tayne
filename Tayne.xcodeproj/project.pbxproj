@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0401BD622D59E596002022A3 /* StyleQuestSecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401BD602D59E596002022A3 /* StyleQuestSecondTableViewCell.swift */; };
+		0401BD632D59E596002022A3 /* StyleQuestSecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0401BD612D59E596002022A3 /* StyleQuestSecondTableViewCell.xib */; };
+		0401BD652D59E778002022A3 /* StyleQuestUserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401BD642D59E778002022A3 /* StyleQuestUserCollectionViewCell.swift */; };
+		0401BD682D59F012002022A3 /* PublishChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401BD662D59F011002022A3 /* PublishChallengeViewController.swift */; };
+		0401BD692D59F012002022A3 /* PublishChallengeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0401BD672D59F011002022A3 /* PublishChallengeViewController.xib */; };
+		041318922D5D83E200BC3840 /* TayneTrendTalkGiftAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041318912D5D83E200BC3840 /* TayneTrendTalkGiftAlertView.swift */; };
+		041318942D5D83EB00BC3840 /* TayneTrendTalkGiftAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041318932D5D83EB00BC3840 /* TayneTrendTalkGiftAlertView.xib */; };
+		041318972D5D914200BC3840 /* TrendTalkGiftCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041318952D5D914200BC3840 /* TrendTalkGiftCollectionViewCell.swift */; };
+		041318982D5D914200BC3840 /* TrendTalkGiftCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041318962D5D914200BC3840 /* TrendTalkGiftCollectionViewCell.xib */; };
+		041322772D5C3E800085E040 /* TayneBlackPoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041322762D5C3E800085E040 /* TayneBlackPoolViewController.xib */; };
+		041322782D5C3E800085E040 /* TayneBlackPoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041322752D5C3E800085E040 /* TayneBlackPoolViewController.swift */; };
+		0413227B2D5C3F710085E040 /* TayneInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413227A2D5C3F710085E040 /* TayneInfoViewController.xib */; };
+		0413227C2D5C3F710085E040 /* TayneInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041322792D5C3F710085E040 /* TayneInfoViewController.swift */; };
+		0413227E2D5C43400085E040 /* TayneTrendTunerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413227D2D5C43400085E040 /* TayneTrendTunerViewController.swift */; };
+		041322802D5C51EF0085E040 /* TermsAndPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413227F2D5C51EF0085E040 /* TermsAndPrivacyViewController.swift */; };
+		041322832D5C78030085E040 /* TyeStyleCreditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041322822D5C78030085E040 /* TyeStyleCreditViewController.xib */; };
+		041322842D5C78030085E040 /* TyeStyleCreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041322812D5C78030085E040 /* TyeStyleCreditViewController.swift */; };
+		041867C82D5C36F100A02AF3 /* TayneSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041867C62D5C36F100A02AF3 /* TayneSettingViewController.swift */; };
+		041867C92D5C36F100A02AF3 /* TayneSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041867C72D5C36F100A02AF3 /* TayneSettingViewController.xib */; };
+		041867CD2D5C37C100A02AF3 /* TayneSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041867CB2D5C37C100A02AF3 /* TayneSettingTableViewCell.swift */; };
+		041867CE2D5C37C100A02AF3 /* TayneSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041867CC2D5C37C100A02AF3 /* TayneSettingTableViewCell.xib */; };
+		0424CAFF2D59935200D44607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424CAF52D59935200D44607 /* AppDelegate.swift */; };
+		0424CB002D59935200D44607 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424CAFC2D59935200D44607 /* SceneDelegate.swift */; };
+		0424CB022D59935200D44607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0424CAF62D59935200D44607 /* Assets.xcassets */; };
+		0424CB042D59935200D44607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0424CAF92D59935200D44607 /* LaunchScreen.storyboard */; };
+		0424CB052D59935200D44607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0424CAFB2D59935200D44607 /* Main.storyboard */; };
+		0424CB0B2D599FC300D44607 /* TayneBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424CB0A2D599FC300D44607 /* TayneBaseViewController.swift */; };
+		0424CB0D2D59A19E00D44607 /* TayneLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424CB0C2D59A19E00D44607 /* TayneLoginViewController.swift */; };
+		0427B9B52D5CA9890034ACEB /* TyeTrendTalkGiftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0427B9B42D5CA9890034ACEB /* TyeTrendTalkGiftTableViewCell.xib */; };
+		0427B9B62D5CA9890034ACEB /* TyeTrendTalkGiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427B9B32D5CA9890034ACEB /* TyeTrendTalkGiftTableViewCell.swift */; };
+		0433028D2D5B1DB900DFEB96 /* HairstyleResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433028B2D5B1DB900DFEB96 /* HairstyleResultViewController.swift */; };
+		0433028E2D5B1DB900DFEB96 /* HairstyleResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0433028C2D5B1DB900DFEB96 /* HairstyleResultViewController.xib */; };
+		043302912D5B202600DFEB96 /* TressTalesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043302902D5B202600DFEB96 /* TressTalesViewController.xib */; };
+		043302922D5B202600DFEB96 /* TressTalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433028F2D5B202600DFEB96 /* TressTalesViewController.swift */; };
+		043E92512D5DCDC200482B86 /* HairChallengeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E92502D5DCDC200482B86 /* HairChallengeModel.swift */; };
+		0449E93E2D59AB49003C629E /* TayneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449E93D2D59AB49003C629E /* TayneManager.swift */; };
+		0449E9402D59AB80003C629E /* TayneConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449E93F2D59AB7A003C629E /* TayneConfig.swift */; };
+		0449E9422D59C83A003C629E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449E9412D59C83A003C629E /* ViewController.swift */; };
+		0449E9472D59D3B8003C629E /* TayneTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449E9462D59D3B8003C629E /* TayneTabbarController.swift */; };
+		0449E9492D59D3EF003C629E /* TyeTrendTalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449E9482D59D3EF003C629E /* TyeTrendTalkViewController.swift */; };
+		0449E94D2D59D404003C629E /* TyeStyleQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449E94C2D59D404003C629E /* TyeStyleQuestViewController.swift */; };
+		046CB7922D59F7B80091AC19 /* TyeChallengeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046CB7902D59F7B80091AC19 /* TyeChallengeDetailViewController.swift */; };
+		046CB7932D59F7B80091AC19 /* TyeChallengeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046CB7912D59F7B80091AC19 /* TyeChallengeDetailViewController.xib */; };
+		0483E39D2D5C79D00090FAF5 /* TyeStyleCreditTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0483E39C2D5C79D00090FAF5 /* TyeStyleCreditTableViewCell.xib */; };
+		0483E39E2D5C79D00090FAF5 /* TyeStyleCreditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483E39B2D5C79D00090FAF5 /* TyeStyleCreditTableViewCell.swift */; };
+		0483E3A12D5C88E10090FAF5 /* TyeReportTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0483E3A02D5C88E10090FAF5 /* TyeReportTypeViewController.xib */; };
+		0483E3A22D5C88E10090FAF5 /* TyeReportTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483E39F2D5C88E10090FAF5 /* TyeReportTypeViewController.swift */; };
+		048E7C482D5AEB8B007294A4 /* ChallengerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E7C462D5AEB8B007294A4 /* ChallengerDetailViewController.swift */; };
+		048E7C492D5AEB8B007294A4 /* ChallengerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E7C472D5AEB8B007294A4 /* ChallengerDetailViewController.xib */; };
+		048E7C4C2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E7C4B2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.xib */; };
+		048E7C4D2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E7C4A2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.swift */; };
+		048E7C502D5AFEA3007294A4 /* HairstyleGenerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E7C4E2D5AFEA3007294A4 /* HairstyleGenerationViewController.swift */; };
+		048E7C512D5AFEA3007294A4 /* HairstyleGenerationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048E7C4F2D5AFEA3007294A4 /* HairstyleGenerationViewController.xib */; };
+		04AE7D592D5CA57C000E6ED5 /* TyeTrendTalkRemoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE7D582D5CA57B000E6ED5 /* TyeTrendTalkRemoteCell.xib */; };
+		04AE7D5A2D5CA57C000E6ED5 /* TyeTrendTalkRemoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE7D572D5CA57B000E6ED5 /* TyeTrendTalkRemoteCell.swift */; };
+		04AE7D5D2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE7D5C2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.xib */; };
+		04AE7D5E2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE7D5B2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.swift */; };
+		04C725102D5B443800FA5AEC /* TyeChicChroniclesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C7250F2D5B443800FA5AEC /* TyeChicChroniclesViewController.xib */; };
+		04C725112D5B443800FA5AEC /* TyeChicChroniclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7250E2D5B443800FA5AEC /* TyeChicChroniclesViewController.swift */; };
+		04CCA2252D59E20100FF569A /* StyleQuestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCA2232D59E20100FF569A /* StyleQuestTableViewCell.swift */; };
+		04CCA2262D59E20100FF569A /* StyleQuestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CCA2242D59E20100FF569A /* StyleQuestTableViewCell.xib */; };
+		04D661D42D59FD1E00335C23 /* TyeChallengeDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D661D32D59FD1E00335C23 /* TyeChallengeDetailCell.xib */; };
+		04D661D52D59FD1E00335C23 /* TyeChallengeDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D661D22D59FD1E00335C23 /* TyeChallengeDetailCell.swift */; };
+		04D661D82D5A001300335C23 /* TyeJoinChallengeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D661D72D5A001300335C23 /* TyeJoinChallengeViewController.xib */; };
+		04D661D92D5A001300335C23 /* TyeJoinChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D661D62D5A001300335C23 /* TyeJoinChallengeViewController.swift */; };
+		04D661E02D5A00FB00335C23 /* TyeJoinChallengeImageVIewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D661DF2D5A00FB00335C23 /* TyeJoinChallengeImageVIewCell.xib */; };
+		04D661E12D5A00FB00335C23 /* TyeJoinChallengeImageVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D661DE2D5A00FB00335C23 /* TyeJoinChallengeImageVIewCell.swift */; };
+		04EDF9222D5C9A6900C7A2A3 /* TyeTrendTalkDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EDF9212D5C9A6900C7A2A3 /* TyeTrendTalkDetailViewController.xib */; };
+		04EDF9232D5C9A6900C7A2A3 /* TyeTrendTalkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDF9202D5C9A6900C7A2A3 /* TyeTrendTalkDetailViewController.swift */; };
+		04F70A612D5B519800BCA6B2 /* TrendTalkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F70A602D5B519800BCA6B2 /* TrendTalkCollectionViewCell.swift */; };
+		04F70A642D5B558100BCA6B2 /* TrendTalkCreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F70A632D5B558100BCA6B2 /* TrendTalkCreateViewController.xib */; };
+		04F70A652D5B558100BCA6B2 /* TrendTalkCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F70A622D5B558100BCA6B2 /* TrendTalkCreateViewController.swift */; };
+		04F910CB2D5B271200C4CC8A /* TressTalesRemoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F910CA2D5B271200C4CC8A /* TressTalesRemoteTableViewCell.xib */; };
+		04F910CC2D5B271200C4CC8A /* TressTalesRemoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F910C92D5B271200C4CC8A /* TressTalesRemoteTableViewCell.swift */; };
+		04F910CF2D5B279500C4CC8A /* TressTalesMyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F910CE2D5B279500C4CC8A /* TressTalesMyTableViewCell.xib */; };
+		04F910D02D5B279500C4CC8A /* TressTalesMyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F910CD2D5B279500C4CC8A /* TressTalesMyTableViewCell.swift */; };
+		04F910D32D5B29BC00C4CC8A /* TressTalesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F910D22D5B29BC00C4CC8A /* TressTalesCollectionViewCell.xib */; };
+		04F910D42D5B29BC00C4CC8A /* TressTalesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F910D12D5B29BC00C4CC8A /* TressTalesCollectionViewCell.swift */; };
+		04F910D62D5B2D0E00C4CC8A /* TayneSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F910D52D5B2D0E00C4CC8A /* TayneSessionViewController.swift */; };
+		1179B8EBE19AE2C91F744A18 /* Pods_Tayne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74EEAFB7E12601C69CAE1574 /* Pods_Tayne.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0401BD602D59E596002022A3 /* StyleQuestSecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleQuestSecondTableViewCell.swift; sourceTree = "<group>"; };
+		0401BD612D59E596002022A3 /* StyleQuestSecondTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StyleQuestSecondTableViewCell.xib; sourceTree = "<group>"; };
+		0401BD642D59E778002022A3 /* StyleQuestUserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleQuestUserCollectionViewCell.swift; sourceTree = "<group>"; };
+		0401BD662D59F011002022A3 /* PublishChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishChallengeViewController.swift; sourceTree = "<group>"; };
+		0401BD672D59F011002022A3 /* PublishChallengeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublishChallengeViewController.xib; sourceTree = "<group>"; };
+		041318912D5D83E200BC3840 /* TayneTrendTalkGiftAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneTrendTalkGiftAlertView.swift; sourceTree = "<group>"; };
+		041318932D5D83EB00BC3840 /* TayneTrendTalkGiftAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TayneTrendTalkGiftAlertView.xib; sourceTree = "<group>"; };
+		041318952D5D914200BC3840 /* TrendTalkGiftCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendTalkGiftCollectionViewCell.swift; sourceTree = "<group>"; };
+		041318962D5D914200BC3840 /* TrendTalkGiftCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendTalkGiftCollectionViewCell.xib; sourceTree = "<group>"; };
+		041322752D5C3E800085E040 /* TayneBlackPoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneBlackPoolViewController.swift; sourceTree = "<group>"; };
+		041322762D5C3E800085E040 /* TayneBlackPoolViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TayneBlackPoolViewController.xib; sourceTree = "<group>"; };
+		041322792D5C3F710085E040 /* TayneInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneInfoViewController.swift; sourceTree = "<group>"; };
+		0413227A2D5C3F710085E040 /* TayneInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TayneInfoViewController.xib; sourceTree = "<group>"; };
+		0413227D2D5C43400085E040 /* TayneTrendTunerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneTrendTunerViewController.swift; sourceTree = "<group>"; };
+		0413227F2D5C51EF0085E040 /* TermsAndPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndPrivacyViewController.swift; sourceTree = "<group>"; };
+		041322812D5C78030085E040 /* TyeStyleCreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeStyleCreditViewController.swift; sourceTree = "<group>"; };
+		041322822D5C78030085E040 /* TyeStyleCreditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeStyleCreditViewController.xib; sourceTree = "<group>"; };
+		041867C62D5C36F100A02AF3 /* TayneSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneSettingViewController.swift; sourceTree = "<group>"; };
+		041867C72D5C36F100A02AF3 /* TayneSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TayneSettingViewController.xib; sourceTree = "<group>"; };
+		041867CB2D5C37C100A02AF3 /* TayneSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneSettingTableViewCell.swift; sourceTree = "<group>"; };
+		041867CC2D5C37C100A02AF3 /* TayneSettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TayneSettingTableViewCell.xib; sourceTree = "<group>"; };
+		0424CADD2D59934C00D44607 /* Tayne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tayne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0424CAF52D59935200D44607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0424CAF62D59935200D44607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0424CAF72D59935200D44607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0424CAF82D59935200D44607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0424CAFA2D59935200D44607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0424CAFC2D59935200D44607 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0424CB0A2D599FC300D44607 /* TayneBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneBaseViewController.swift; sourceTree = "<group>"; };
+		0424CB0C2D59A19E00D44607 /* TayneLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneLoginViewController.swift; sourceTree = "<group>"; };
+		0427B9B32D5CA9890034ACEB /* TyeTrendTalkGiftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeTrendTalkGiftTableViewCell.swift; sourceTree = "<group>"; };
+		0427B9B42D5CA9890034ACEB /* TyeTrendTalkGiftTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeTrendTalkGiftTableViewCell.xib; sourceTree = "<group>"; };
+		0433028B2D5B1DB900DFEB96 /* HairstyleResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairstyleResultViewController.swift; sourceTree = "<group>"; };
+		0433028C2D5B1DB900DFEB96 /* HairstyleResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HairstyleResultViewController.xib; sourceTree = "<group>"; };
+		0433028F2D5B202600DFEB96 /* TressTalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TressTalesViewController.swift; sourceTree = "<group>"; };
+		043302902D5B202600DFEB96 /* TressTalesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TressTalesViewController.xib; sourceTree = "<group>"; };
+		043E92502D5DCDC200482B86 /* HairChallengeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairChallengeModel.swift; sourceTree = "<group>"; };
+		0449E93D2D59AB49003C629E /* TayneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneManager.swift; sourceTree = "<group>"; };
+		0449E93F2D59AB7A003C629E /* TayneConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneConfig.swift; sourceTree = "<group>"; };
+		0449E9412D59C83A003C629E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0449E9462D59D3B8003C629E /* TayneTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneTabbarController.swift; sourceTree = "<group>"; };
+		0449E9482D59D3EF003C629E /* TyeTrendTalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeTrendTalkViewController.swift; sourceTree = "<group>"; };
+		0449E94C2D59D404003C629E /* TyeStyleQuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeStyleQuestViewController.swift; sourceTree = "<group>"; };
+		046CB7902D59F7B80091AC19 /* TyeChallengeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeChallengeDetailViewController.swift; sourceTree = "<group>"; };
+		046CB7912D59F7B80091AC19 /* TyeChallengeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeChallengeDetailViewController.xib; sourceTree = "<group>"; };
+		0483E39B2D5C79D00090FAF5 /* TyeStyleCreditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeStyleCreditTableViewCell.swift; sourceTree = "<group>"; };
+		0483E39C2D5C79D00090FAF5 /* TyeStyleCreditTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeStyleCreditTableViewCell.xib; sourceTree = "<group>"; };
+		0483E39F2D5C88E10090FAF5 /* TyeReportTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeReportTypeViewController.swift; sourceTree = "<group>"; };
+		0483E3A02D5C88E10090FAF5 /* TyeReportTypeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeReportTypeViewController.xib; sourceTree = "<group>"; };
+		048E7C462D5AEB8B007294A4 /* ChallengerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengerDetailViewController.swift; sourceTree = "<group>"; };
+		048E7C472D5AEB8B007294A4 /* ChallengerDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChallengerDetailViewController.xib; sourceTree = "<group>"; };
+		048E7C4A2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengerDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		048E7C4B2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChallengerDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		048E7C4E2D5AFEA3007294A4 /* HairstyleGenerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairstyleGenerationViewController.swift; sourceTree = "<group>"; };
+		048E7C4F2D5AFEA3007294A4 /* HairstyleGenerationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HairstyleGenerationViewController.xib; sourceTree = "<group>"; };
+		04AE7D572D5CA57B000E6ED5 /* TyeTrendTalkRemoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeTrendTalkRemoteCell.swift; sourceTree = "<group>"; };
+		04AE7D582D5CA57B000E6ED5 /* TyeTrendTalkRemoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeTrendTalkRemoteCell.xib; sourceTree = "<group>"; };
+		04AE7D5B2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeTrendTalkMyCell.swift; sourceTree = "<group>"; };
+		04AE7D5C2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeTrendTalkMyCell.xib; sourceTree = "<group>"; };
+		04C7250E2D5B443800FA5AEC /* TyeChicChroniclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeChicChroniclesViewController.swift; sourceTree = "<group>"; };
+		04C7250F2D5B443800FA5AEC /* TyeChicChroniclesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeChicChroniclesViewController.xib; sourceTree = "<group>"; };
+		04CCA2232D59E20100FF569A /* StyleQuestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleQuestTableViewCell.swift; sourceTree = "<group>"; };
+		04CCA2242D59E20100FF569A /* StyleQuestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StyleQuestTableViewCell.xib; sourceTree = "<group>"; };
+		04D661D22D59FD1E00335C23 /* TyeChallengeDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeChallengeDetailCell.swift; sourceTree = "<group>"; };
+		04D661D32D59FD1E00335C23 /* TyeChallengeDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeChallengeDetailCell.xib; sourceTree = "<group>"; };
+		04D661D62D5A001300335C23 /* TyeJoinChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeJoinChallengeViewController.swift; sourceTree = "<group>"; };
+		04D661D72D5A001300335C23 /* TyeJoinChallengeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeJoinChallengeViewController.xib; sourceTree = "<group>"; };
+		04D661DE2D5A00FB00335C23 /* TyeJoinChallengeImageVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeJoinChallengeImageVIewCell.swift; sourceTree = "<group>"; };
+		04D661DF2D5A00FB00335C23 /* TyeJoinChallengeImageVIewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeJoinChallengeImageVIewCell.xib; sourceTree = "<group>"; };
+		04EDF9202D5C9A6900C7A2A3 /* TyeTrendTalkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyeTrendTalkDetailViewController.swift; sourceTree = "<group>"; };
+		04EDF9212D5C9A6900C7A2A3 /* TyeTrendTalkDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TyeTrendTalkDetailViewController.xib; sourceTree = "<group>"; };
+		04F70A602D5B519800BCA6B2 /* TrendTalkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendTalkCollectionViewCell.swift; sourceTree = "<group>"; };
+		04F70A622D5B558100BCA6B2 /* TrendTalkCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendTalkCreateViewController.swift; sourceTree = "<group>"; };
+		04F70A632D5B558100BCA6B2 /* TrendTalkCreateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendTalkCreateViewController.xib; sourceTree = "<group>"; };
+		04F910C92D5B271200C4CC8A /* TressTalesRemoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TressTalesRemoteTableViewCell.swift; sourceTree = "<group>"; };
+		04F910CA2D5B271200C4CC8A /* TressTalesRemoteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TressTalesRemoteTableViewCell.xib; sourceTree = "<group>"; };
+		04F910CD2D5B279500C4CC8A /* TressTalesMyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TressTalesMyTableViewCell.swift; sourceTree = "<group>"; };
+		04F910CE2D5B279500C4CC8A /* TressTalesMyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TressTalesMyTableViewCell.xib; sourceTree = "<group>"; };
+		04F910D12D5B29BC00C4CC8A /* TressTalesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TressTalesCollectionViewCell.swift; sourceTree = "<group>"; };
+		04F910D22D5B29BC00C4CC8A /* TressTalesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TressTalesCollectionViewCell.xib; sourceTree = "<group>"; };
+		04F910D52D5B2D0E00C4CC8A /* TayneSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TayneSessionViewController.swift; sourceTree = "<group>"; };
+		288BA5032D500738B9045EFE /* Pods-Tayne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tayne.release.xcconfig"; path = "Target Support Files/Pods-Tayne/Pods-Tayne.release.xcconfig"; sourceTree = "<group>"; };
+		74EEAFB7E12601C69CAE1574 /* Pods_Tayne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tayne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F34B6D6994F0F66D42B8027 /* Pods-Tayne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tayne.debug.xcconfig"; path = "Target Support Files/Pods-Tayne/Pods-Tayne.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0424CADA2D59934C00D44607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1179B8EBE19AE2C91F744A18 /* Pods_Tayne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041867CA2D5C37B300A02AF3 /* ChildVIews */ = {
+			isa = PBXGroup;
+			children = (
+				041867CB2D5C37C100A02AF3 /* TayneSettingTableViewCell.swift */,
+				041867CC2D5C37C100A02AF3 /* TayneSettingTableViewCell.xib */,
+				0483E39B2D5C79D00090FAF5 /* TyeStyleCreditTableViewCell.swift */,
+				0483E39C2D5C79D00090FAF5 /* TyeStyleCreditTableViewCell.xib */,
+			);
+			path = ChildVIews;
+			sourceTree = "<group>";
+		};
+		0424CAD42D59934C00D44607 = {
+			isa = PBXGroup;
+			children = (
+				0424CAFE2D59935200D44607 /* Tayne */,
+				0424CADE2D59934C00D44607 /* Products */,
+				65954915761E319AAE7CAFFE /* Pods */,
+				F7AADC847D4952D672A2CAF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0424CADE2D59934C00D44607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0424CADD2D59934C00D44607 /* Tayne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0424CAFE2D59935200D44607 /* Tayne */ = {
+			isa = PBXGroup;
+			children = (
+				0424CB092D599F7200D44607 /* HairstyleStudio */,
+				0424CB082D599F4100D44607 /* ChicChronicles */,
+				0424CB072D599F3500D44607 /* TrendTalk */,
+				0424CB062D599ED800D44607 /* StyleQuest */,
+				0424CAF62D59935200D44607 /* Assets.xcassets */,
+				0424CAF72D59935200D44607 /* Info.plist */,
+				0424CAF92D59935200D44607 /* LaunchScreen.storyboard */,
+				0424CAFB2D59935200D44607 /* Main.storyboard */,
+				0424CAF52D59935200D44607 /* AppDelegate.swift */,
+				0424CAFC2D59935200D44607 /* SceneDelegate.swift */,
+				0449E93D2D59AB49003C629E /* TayneManager.swift */,
+				0449E93F2D59AB7A003C629E /* TayneConfig.swift */,
+				0449E9412D59C83A003C629E /* ViewController.swift */,
+			);
+			path = Tayne;
+			sourceTree = "<group>";
+		};
+		0424CB062D599ED800D44607 /* StyleQuest */ = {
+			isa = PBXGroup;
+			children = (
+				043E924F2D5DCDA400482B86 /* Models */,
+				04CCA2222D59E1E500FF569A /* ChildVIews */,
+				0449E94C2D59D404003C629E /* TyeStyleQuestViewController.swift */,
+				0401BD662D59F011002022A3 /* PublishChallengeViewController.swift */,
+				0401BD672D59F011002022A3 /* PublishChallengeViewController.xib */,
+				046CB7902D59F7B80091AC19 /* TyeChallengeDetailViewController.swift */,
+				046CB7912D59F7B80091AC19 /* TyeChallengeDetailViewController.xib */,
+				04D661D62D5A001300335C23 /* TyeJoinChallengeViewController.swift */,
+				04D661D72D5A001300335C23 /* TyeJoinChallengeViewController.xib */,
+				048E7C462D5AEB8B007294A4 /* ChallengerDetailViewController.swift */,
+				048E7C472D5AEB8B007294A4 /* ChallengerDetailViewController.xib */,
+				048E7C4E2D5AFEA3007294A4 /* HairstyleGenerationViewController.swift */,
+				048E7C4F2D5AFEA3007294A4 /* HairstyleGenerationViewController.xib */,
+				0433028B2D5B1DB900DFEB96 /* HairstyleResultViewController.swift */,
+				0433028C2D5B1DB900DFEB96 /* HairstyleResultViewController.xib */,
+				0483E39F2D5C88E10090FAF5 /* TyeReportTypeViewController.swift */,
+				0483E3A02D5C88E10090FAF5 /* TyeReportTypeViewController.xib */,
+			);
+			path = StyleQuest;
+			sourceTree = "<group>";
+		};
+		0424CB072D599F3500D44607 /* TrendTalk */ = {
+			isa = PBXGroup;
+			children = (
+				04F910C82D5B26F000C4CC8A /* ChildVIews */,
+				0449E9482D59D3EF003C629E /* TyeTrendTalkViewController.swift */,
+				04EDF9202D5C9A6900C7A2A3 /* TyeTrendTalkDetailViewController.swift */,
+				04EDF9212D5C9A6900C7A2A3 /* TyeTrendTalkDetailViewController.xib */,
+				0433028F2D5B202600DFEB96 /* TressTalesViewController.swift */,
+				043302902D5B202600DFEB96 /* TressTalesViewController.xib */,
+				04F910D52D5B2D0E00C4CC8A /* TayneSessionViewController.swift */,
+				04F70A622D5B558100BCA6B2 /* TrendTalkCreateViewController.swift */,
+				04F70A632D5B558100BCA6B2 /* TrendTalkCreateViewController.xib */,
+			);
+			path = TrendTalk;
+			sourceTree = "<group>";
+		};
+		0424CB082D599F4100D44607 /* ChicChronicles */ = {
+			isa = PBXGroup;
+			children = (
+				041867CA2D5C37B300A02AF3 /* ChildVIews */,
+				04C7250E2D5B443800FA5AEC /* TyeChicChroniclesViewController.swift */,
+				04C7250F2D5B443800FA5AEC /* TyeChicChroniclesViewController.xib */,
+				041867C62D5C36F100A02AF3 /* TayneSettingViewController.swift */,
+				041867C72D5C36F100A02AF3 /* TayneSettingViewController.xib */,
+				041322752D5C3E800085E040 /* TayneBlackPoolViewController.swift */,
+				041322762D5C3E800085E040 /* TayneBlackPoolViewController.xib */,
+				041322792D5C3F710085E040 /* TayneInfoViewController.swift */,
+				0413227A2D5C3F710085E040 /* TayneInfoViewController.xib */,
+				0413227D2D5C43400085E040 /* TayneTrendTunerViewController.swift */,
+				041322812D5C78030085E040 /* TyeStyleCreditViewController.swift */,
+				041322822D5C78030085E040 /* TyeStyleCreditViewController.xib */,
+			);
+			path = ChicChronicles;
+			sourceTree = "<group>";
+		};
+		0424CB092D599F7200D44607 /* HairstyleStudio */ = {
+			isa = PBXGroup;
+			children = (
+				0424CB0A2D599FC300D44607 /* TayneBaseViewController.swift */,
+				0424CB0C2D59A19E00D44607 /* TayneLoginViewController.swift */,
+				0449E9462D59D3B8003C629E /* TayneTabbarController.swift */,
+				0413227F2D5C51EF0085E040 /* TermsAndPrivacyViewController.swift */,
+			);
+			path = HairstyleStudio;
+			sourceTree = "<group>";
+		};
+		043E924F2D5DCDA400482B86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				043E92502D5DCDC200482B86 /* HairChallengeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04CCA2222D59E1E500FF569A /* ChildVIews */ = {
+			isa = PBXGroup;
+			children = (
+				04CCA2232D59E20100FF569A /* StyleQuestTableViewCell.swift */,
+				04CCA2242D59E20100FF569A /* StyleQuestTableViewCell.xib */,
+				0401BD602D59E596002022A3 /* StyleQuestSecondTableViewCell.swift */,
+				0401BD612D59E596002022A3 /* StyleQuestSecondTableViewCell.xib */,
+				0401BD642D59E778002022A3 /* StyleQuestUserCollectionViewCell.swift */,
+				04D661D22D59FD1E00335C23 /* TyeChallengeDetailCell.swift */,
+				04D661D32D59FD1E00335C23 /* TyeChallengeDetailCell.xib */,
+				04D661DE2D5A00FB00335C23 /* TyeJoinChallengeImageVIewCell.swift */,
+				04D661DF2D5A00FB00335C23 /* TyeJoinChallengeImageVIewCell.xib */,
+				048E7C4A2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.swift */,
+				048E7C4B2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.xib */,
+			);
+			path = ChildVIews;
+			sourceTree = "<group>";
+		};
+		04F910C82D5B26F000C4CC8A /* ChildVIews */ = {
+			isa = PBXGroup;
+			children = (
+				04F910C92D5B271200C4CC8A /* TressTalesRemoteTableViewCell.swift */,
+				04F910CA2D5B271200C4CC8A /* TressTalesRemoteTableViewCell.xib */,
+				04F910CD2D5B279500C4CC8A /* TressTalesMyTableViewCell.swift */,
+				04F910CE2D5B279500C4CC8A /* TressTalesMyTableViewCell.xib */,
+				04F910D12D5B29BC00C4CC8A /* TressTalesCollectionViewCell.swift */,
+				04F910D22D5B29BC00C4CC8A /* TressTalesCollectionViewCell.xib */,
+				04F70A602D5B519800BCA6B2 /* TrendTalkCollectionViewCell.swift */,
+				04AE7D572D5CA57B000E6ED5 /* TyeTrendTalkRemoteCell.swift */,
+				04AE7D582D5CA57B000E6ED5 /* TyeTrendTalkRemoteCell.xib */,
+				04AE7D5B2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.swift */,
+				04AE7D5C2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.xib */,
+				0427B9B32D5CA9890034ACEB /* TyeTrendTalkGiftTableViewCell.swift */,
+				0427B9B42D5CA9890034ACEB /* TyeTrendTalkGiftTableViewCell.xib */,
+				041318912D5D83E200BC3840 /* TayneTrendTalkGiftAlertView.swift */,
+				041318932D5D83EB00BC3840 /* TayneTrendTalkGiftAlertView.xib */,
+				041318952D5D914200BC3840 /* TrendTalkGiftCollectionViewCell.swift */,
+				041318962D5D914200BC3840 /* TrendTalkGiftCollectionViewCell.xib */,
+			);
+			path = ChildVIews;
+			sourceTree = "<group>";
+		};
+		65954915761E319AAE7CAFFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F34B6D6994F0F66D42B8027 /* Pods-Tayne.debug.xcconfig */,
+				288BA5032D500738B9045EFE /* Pods-Tayne.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7AADC847D4952D672A2CAF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74EEAFB7E12601C69CAE1574 /* Pods_Tayne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0424CADC2D59934C00D44607 /* Tayne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0424CAF02D59934D00D44607 /* Build configuration list for PBXNativeTarget "Tayne" */;
+			buildPhases = (
+				4F8EDBED5450B1AD906F4164 /* [CP] Check Pods Manifest.lock */,
+				0424CAD92D59934C00D44607 /* Sources */,
+				0424CADA2D59934C00D44607 /* Frameworks */,
+				0424CADB2D59934C00D44607 /* Resources */,
+				1930FBE219D4DA47C1B73D2D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tayne;
+			productName = Tayne;
+			productReference = 0424CADD2D59934C00D44607 /* Tayne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0424CAD52D59934C00D44607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0424CADC2D59934C00D44607 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 0424CAD82D59934C00D44607 /* Build configuration list for PBXProject "Tayne" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0424CAD42D59934C00D44607;
+			productRefGroup = 0424CADE2D59934C00D44607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0424CADC2D59934C00D44607 /* Tayne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0424CADB2D59934C00D44607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE7D592D5CA57C000E6ED5 /* TyeTrendTalkRemoteCell.xib in Resources */,
+				04C725102D5B443800FA5AEC /* TyeChicChroniclesViewController.xib in Resources */,
+				0483E39D2D5C79D00090FAF5 /* TyeStyleCreditTableViewCell.xib in Resources */,
+				0424CB022D59935200D44607 /* Assets.xcassets in Resources */,
+				04F910CB2D5B271200C4CC8A /* TressTalesRemoteTableViewCell.xib in Resources */,
+				0424CB042D59935200D44607 /* LaunchScreen.storyboard in Resources */,
+				041322832D5C78030085E040 /* TyeStyleCreditViewController.xib in Resources */,
+				043302912D5B202600DFEB96 /* TressTalesViewController.xib in Resources */,
+				0401BD692D59F012002022A3 /* PublishChallengeViewController.xib in Resources */,
+				0433028E2D5B1DB900DFEB96 /* HairstyleResultViewController.xib in Resources */,
+				04D661D82D5A001300335C23 /* TyeJoinChallengeViewController.xib in Resources */,
+				041867CE2D5C37C100A02AF3 /* TayneSettingTableViewCell.xib in Resources */,
+				048E7C512D5AFEA3007294A4 /* HairstyleGenerationViewController.xib in Resources */,
+				0483E3A12D5C88E10090FAF5 /* TyeReportTypeViewController.xib in Resources */,
+				041867C92D5C36F100A02AF3 /* TayneSettingViewController.xib in Resources */,
+				04EDF9222D5C9A6900C7A2A3 /* TyeTrendTalkDetailViewController.xib in Resources */,
+				04D661D42D59FD1E00335C23 /* TyeChallengeDetailCell.xib in Resources */,
+				04F910CF2D5B279500C4CC8A /* TressTalesMyTableViewCell.xib in Resources */,
+				046CB7932D59F7B80091AC19 /* TyeChallengeDetailViewController.xib in Resources */,
+				041322772D5C3E800085E040 /* TayneBlackPoolViewController.xib in Resources */,
+				048E7C4C2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.xib in Resources */,
+				0413227B2D5C3F710085E040 /* TayneInfoViewController.xib in Resources */,
+				048E7C492D5AEB8B007294A4 /* ChallengerDetailViewController.xib in Resources */,
+				041318942D5D83EB00BC3840 /* TayneTrendTalkGiftAlertView.xib in Resources */,
+				04CCA2262D59E20100FF569A /* StyleQuestTableViewCell.xib in Resources */,
+				04F910D32D5B29BC00C4CC8A /* TressTalesCollectionViewCell.xib in Resources */,
+				041318982D5D914200BC3840 /* TrendTalkGiftCollectionViewCell.xib in Resources */,
+				0424CB052D59935200D44607 /* Main.storyboard in Resources */,
+				0401BD632D59E596002022A3 /* StyleQuestSecondTableViewCell.xib in Resources */,
+				04F70A642D5B558100BCA6B2 /* TrendTalkCreateViewController.xib in Resources */,
+				04AE7D5D2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.xib in Resources */,
+				0427B9B52D5CA9890034ACEB /* TyeTrendTalkGiftTableViewCell.xib in Resources */,
+				04D661E02D5A00FB00335C23 /* TyeJoinChallengeImageVIewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1930FBE219D4DA47C1B73D2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tayne/Pods-Tayne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tayne/Pods-Tayne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tayne/Pods-Tayne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8EDBED5450B1AD906F4164 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tayne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0424CAD92D59934C00D44607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041322842D5C78030085E040 /* TyeStyleCreditViewController.swift in Sources */,
+				0401BD652D59E778002022A3 /* StyleQuestUserCollectionViewCell.swift in Sources */,
+				0424CAFF2D59935200D44607 /* AppDelegate.swift in Sources */,
+				043302922D5B202600DFEB96 /* TressTalesViewController.swift in Sources */,
+				04F910CC2D5B271200C4CC8A /* TressTalesRemoteTableViewCell.swift in Sources */,
+				0449E9492D59D3EF003C629E /* TyeTrendTalkViewController.swift in Sources */,
+				04F70A612D5B519800BCA6B2 /* TrendTalkCollectionViewCell.swift in Sources */,
+				043E92512D5DCDC200482B86 /* HairChallengeModel.swift in Sources */,
+				04D661D52D59FD1E00335C23 /* TyeChallengeDetailCell.swift in Sources */,
+				048E7C4D2D5AEEF2007294A4 /* ChallengerDetailCollectionViewCell.swift in Sources */,
+				04D661E12D5A00FB00335C23 /* TyeJoinChallengeImageVIewCell.swift in Sources */,
+				04F910D02D5B279500C4CC8A /* TressTalesMyTableViewCell.swift in Sources */,
+				0483E39E2D5C79D00090FAF5 /* TyeStyleCreditTableViewCell.swift in Sources */,
+				0424CB002D59935200D44607 /* SceneDelegate.swift in Sources */,
+				041322782D5C3E800085E040 /* TayneBlackPoolViewController.swift in Sources */,
+				041318972D5D914200BC3840 /* TrendTalkGiftCollectionViewCell.swift in Sources */,
+				048E7C502D5AFEA3007294A4 /* HairstyleGenerationViewController.swift in Sources */,
+				0424CB0B2D599FC300D44607 /* TayneBaseViewController.swift in Sources */,
+				04AE7D5A2D5CA57C000E6ED5 /* TyeTrendTalkRemoteCell.swift in Sources */,
+				0449E9402D59AB80003C629E /* TayneConfig.swift in Sources */,
+				0449E9422D59C83A003C629E /* ViewController.swift in Sources */,
+				0413227C2D5C3F710085E040 /* TayneInfoViewController.swift in Sources */,
+				04C725112D5B443800FA5AEC /* TyeChicChroniclesViewController.swift in Sources */,
+				046CB7922D59F7B80091AC19 /* TyeChallengeDetailViewController.swift in Sources */,
+				0413227E2D5C43400085E040 /* TayneTrendTunerViewController.swift in Sources */,
+				04EDF9232D5C9A6900C7A2A3 /* TyeTrendTalkDetailViewController.swift in Sources */,
+				0401BD682D59F012002022A3 /* PublishChallengeViewController.swift in Sources */,
+				0401BD622D59E596002022A3 /* StyleQuestSecondTableViewCell.swift in Sources */,
+				04F910D62D5B2D0E00C4CC8A /* TayneSessionViewController.swift in Sources */,
+				04F910D42D5B29BC00C4CC8A /* TressTalesCollectionViewCell.swift in Sources */,
+				0424CB0D2D59A19E00D44607 /* TayneLoginViewController.swift in Sources */,
+				041322802D5C51EF0085E040 /* TermsAndPrivacyViewController.swift in Sources */,
+				04F70A652D5B558100BCA6B2 /* TrendTalkCreateViewController.swift in Sources */,
+				0483E3A22D5C88E10090FAF5 /* TyeReportTypeViewController.swift in Sources */,
+				04AE7D5E2D5CA6C5000E6ED5 /* TyeTrendTalkMyCell.swift in Sources */,
+				041318922D5D83E200BC3840 /* TayneTrendTalkGiftAlertView.swift in Sources */,
+				0433028D2D5B1DB900DFEB96 /* HairstyleResultViewController.swift in Sources */,
+				0427B9B62D5CA9890034ACEB /* TyeTrendTalkGiftTableViewCell.swift in Sources */,
+				048E7C482D5AEB8B007294A4 /* ChallengerDetailViewController.swift in Sources */,
+				041867C82D5C36F100A02AF3 /* TayneSettingViewController.swift in Sources */,
+				0449E94D2D59D404003C629E /* TyeStyleQuestViewController.swift in Sources */,
+				0449E93E2D59AB49003C629E /* TayneManager.swift in Sources */,
+				041867CD2D5C37C100A02AF3 /* TayneSettingTableViewCell.swift in Sources */,
+				04CCA2252D59E20100FF569A /* StyleQuestTableViewCell.swift in Sources */,
+				0449E9472D59D3B8003C629E /* TayneTabbarController.swift in Sources */,
+				04D661D92D5A001300335C23 /* TyeJoinChallengeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0424CAF92D59935200D44607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0424CAF82D59935200D44607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0424CAFB2D59935200D44607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0424CAFA2D59935200D44607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0424CAF12D59934D00D44607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F34B6D6994F0F66D42B8027 /* Pods-Tayne.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tayne/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tayne;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to enable video calls and enhance your calling experience.\"";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"Allow microphone access so you can speak clearly during calls and voice chats.\"";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "“Unlock your hairstyle journey! Please allow access to your album to upload your stylish shots.”";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tayne.tye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0424CAF22D59934D00D44607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288BA5032D500738B9045EFE /* Pods-Tayne.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tayne/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tayne;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to enable video calls and enhance your calling experience.\"";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"Allow microphone access so you can speak clearly during calls and voice chats.\"";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "“Unlock your hairstyle journey! Please allow access to your album to upload your stylish shots.”";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tayne.tye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0424CAF32D59934D00D44607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0424CAF42D59934D00D44607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0424CAD82D59934C00D44607 /* Build configuration list for PBXProject "Tayne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0424CAF32D59934D00D44607 /* Debug */,
+				0424CAF42D59934D00D44607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0424CAF02D59934D00D44607 /* Build configuration list for PBXNativeTarget "Tayne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0424CAF12D59934D00D44607 /* Debug */,
+				0424CAF22D59934D00D44607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0424CAD52D59934C00D44607 /* Project object */;
+}

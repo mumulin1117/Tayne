@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TayneInfoViewController" customModule="Tayne" customModuleProvider="target">
+            <connections>
+                <outlet property="tayneVersion" destination="Lbk-tb-ICv" id="GIS-db-Wma"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tayneLoginBackImage" translatesAutoresizingMaskIntoConstraints="NO" id="HmG-Z7-6M5">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tyeLaunchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="zhj-mV-GmG">
+                    <rect key="frame" x="143.66666666666666" y="300" width="106" height="105"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tyeLaunchName" translatesAutoresizingMaskIntoConstraints="NO" id="yNi-Wo-aXl">
+                    <rect key="frame" x="140.66666666666666" y="415" width="112" height="30"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbk-tb-ICv">
+                    <rect key="frame" x="139" y="449" width="115" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="yNi-Wo-aXl" firstAttribute="top" secondItem="zhj-mV-GmG" secondAttribute="bottom" constant="10" id="9Bz-up-iHI"/>
+                <constraint firstItem="yNi-Wo-aXl" firstAttribute="centerX" secondItem="HmG-Z7-6M5" secondAttribute="centerX" id="KVf-4s-Bkg"/>
+                <constraint firstAttribute="bottom" secondItem="HmG-Z7-6M5" secondAttribute="bottom" id="Ydz-kO-oyg"/>
+                <constraint firstItem="Lbk-tb-ICv" firstAttribute="centerX" secondItem="HmG-Z7-6M5" secondAttribute="centerX" id="bUc-xd-5RD"/>
+                <constraint firstItem="HmG-Z7-6M5" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="bxu-dN-2E5"/>
+                <constraint firstItem="HmG-Z7-6M5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cti-Uu-Hpr"/>
+                <constraint firstItem="HmG-Z7-6M5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="d1v-OP-5vZ"/>
+                <constraint firstItem="Lbk-tb-ICv" firstAttribute="top" secondItem="yNi-Wo-aXl" secondAttribute="bottom" constant="4" id="iZt-Hr-TNO"/>
+                <constraint firstItem="zhj-mV-GmG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="300" id="nSh-NO-hKP"/>
+                <constraint firstItem="zhj-mV-GmG" firstAttribute="centerX" secondItem="HmG-Z7-6M5" secondAttribute="centerX" id="oI4-0N-QCo"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tayneLoginBackImage" width="375" height="812"/>
+        <image name="tyeLaunchLogo" width="106" height="105"/>
+        <image name="tyeLaunchName" width="112" height="30"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
